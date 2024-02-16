@@ -1,0 +1,30 @@
+.transactionHistory {
+  table-layout: fixed;
+  width: 250px;
+  border-collapse: collapse;
+  border: 3px solid rgb(5, 68, 16);
+}
+
+.tabTitle {
+  background-color: #3e4444;
+  color: rgb(255, 255, 255);
+}
+
+.titleItem {
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255);
+}
+
+.item {
+  font-size: small;
+  padding: 2px;
+  text-align: center;
+  border: 3px solid #82b74b;
+  color: white;
+}
+.list {
+  background-color: #82b74b;
+}
+.list:nth-child(even) {
+  background-color: #405d27;
+}

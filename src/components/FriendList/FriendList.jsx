@@ -5,7 +5,7 @@ const FriendList = ({friends}) => {
     return (
         <ul className={s.friendList}>
             {friends.map(item => {
-               return <FriendListItem avatar={item.avatar} name={item.name} isOnline={item.isOnline} />
+               return <FriendListItem  key={item.id} avatar={item.avatar} name={item.name} isOnline={item.isOnline} />
             })}
  
 </ul>)}
